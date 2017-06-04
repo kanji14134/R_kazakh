@@ -1,0 +1,110 @@
+---
+title: "R&MaxEnt seminer in Kazakh"
+output: html_document
+# toc: TRUE
+---
+<!-- Self Introduction -->
+<!-- - PhD student at RakunoGakuenUniv. -->
+<!-- - Landscape Ecology using GIS,RS -->
+<!-- - Data analysis with R -->
+Widows User Name 
+
+#todo
+toc
+page
+
+##Install Software
+
+install these software newest version.  
+- R 3.40  
+- Rstudio 1.0.143  
+- MaxEnt *depends  
+Using R with Rstudio is most powerful for data analysis!
+
+##First Step in R language (classical R)
+###object?
+called as 'object', what stroes 'variable' and 'function' in R  
+R codes shows in this box. plz type in console
+```{r}
+100 * 100 - 100 / 100
+test <- 100
+test * 10
+```
+
+###assign/insert object
+->, <-, =, assign()  
+below codes means same!
+```{r}
+test2 <- 100
+test3 = 100
+100 -> test4
+assign("test5",100)
+c(test2,test3,test4,test5)
+```
+
+###data type
+```{r}
+num <- 100
+class(num)
+cha <- "string or charactor"
+class(cha)
+
+true_b <- TRUE
+false_b <- FALSE
+class(true_b)
+
+(fcr <- as.factor(c("A","B","C")))
+class(fcr)
+```
+
+###data structure
+```{r}
+#vector
+v <- c(1,2,3,4)
+v
+
+#must be same type
+v2 <- c("1","2",3,TRUE)
+v2
+
+#matrix
+mx <- matrix(c(1:16),nrow = 4)
+mx
+
+#list can contain all type
+l <- list(c(1,2),"3",TRUE)
+l
+
+#dataframe is made from multiple vectors which have same length
+dat <- data.frame(c(1,2,3,4),letters = c("A","B","C","D"))
+dat
+```
+
+
+function
+```{r}
+(seq(1,10) -> a) # assign and print
+head(a) # print 1:6 from head
+tail(a) # print 1:6 from tail
+```
+
+
+
+```{r}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
